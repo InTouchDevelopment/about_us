@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://nithenai.com/",
+  "homepage": "https://intouchdevelopment.github.io/about_us/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
