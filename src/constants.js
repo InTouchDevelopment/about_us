@@ -24,9 +24,10 @@ export const HERO = {
 export const STORY = {
   heading: 'Our Story',
   paragraphs: [
-    'NithenAI was founded on a simple observation: organizations are drowning in data, yet starving for understanding. Traditional approaches to metadata management are fragmented, manual, and unable to keep pace with modern data ecosystems.',
-    'Our team of data engineers and AI researchers set out to build an intelligent platform that automatically discovers, classifies, and connects metadata across every tool in your stack — giving you a living map of your data landscape.',
-    'Today, NithenAI serves teams who demand both deep visibility and uncompromising privacy. Our platform runs where your data lives, ensuring nothing leaves your environment while delivering enterprise-grade intelligence.',
+    'NithenAI was founded on a pattern every experienced investor recognizes in hindsight: someone on the team already knew something was wrong — weeks before it showed up in the numbers. Deals were slipping. Handoffs were fraying. The energy between teams had shifted. But there was no system to surface it.',
+    'We built one.',
+    'Our team set out to track what financials can\'t: the behavioral signals that precede execution risk. Not surveys. Not content monitoring. Response times, communication patterns, acknowledgment rates — the quiet indicators that, when they drift, reliably predict what happens next in the board deck.',
+    'The result is the Connection Health Score: real-time organizational visibility, 4 to 8 weeks before problems reach your portfolio companies\' financials.',
   ],
   image: fullImage,
   imageAlt: 'NithenAI team collaborating',
@@ -35,28 +36,28 @@ export const STORY = {
 // Values / principles cards
 export const VALUES = [
   {
+    icon: '🔍',
+    title: 'Signal Over Noise',
+    description:
+      'We track the behavioral patterns that matter — response times, engagement, communication flow — and filter out everything that doesn\'t predict what happens next.',
+  },
+  {
     icon: '🔒',
-    title: 'Privacy First',
+    title: 'Privacy Without Compromise',
     description:
-      'Your data never leaves your environment. Our architecture ensures complete control and compliance from day one.',
+      'We see patterns, never content. No messages are read, no conversations monitored. Visibility into organizational health without crossing the line.',
   },
   {
-    icon: '🤖',
-    title: 'AI-Native Intelligence',
+    icon: '⏱️',
+    title: 'Early, Not Late',
     description:
-      'Purpose-built models that understand metadata context, lineage, and relationships across your entire stack.',
-  },
-  {
-    icon: '⚡',
-    title: 'Instant Clarity',
-    description:
-      'From connection to insight in minutes, not months. Automated discovery replaces manual cataloging.',
+      'By the time execution risk shows up in a board deck, the window to act has narrowed. We\'re built to surface what\'s coming 4 to 8 weeks before it hits the financials.',
   },
   {
     icon: '🤝',
-    title: 'Team Empowerment',
+    title: 'Built for Investors Who\'ve Seen It Before',
     description:
-      'We build for the people who work with data every day — analysts, engineers, and leaders who need answers fast.',
+      'You already know the pattern — someone on the team knew. We built the system that finally makes that signal visible, at scale, across a portfolio.',
   },
 ]
 
@@ -73,7 +74,7 @@ export const TEAM = [
 export const VIDEO = {
   heading: 'See NithenAI in Action',
   description:
-    'Watch a quick walkthrough of how NithenAI discovers, classifies, and connects your metadata automatically.',
+    'We built an illustrative walkthrough around a fictional Series B company. See exactly what the Connection Health Score was showing — and when an investor would have had enough signal to act.',
   url: '/demo.mp4',
 }
 
