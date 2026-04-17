@@ -1,4 +1,9 @@
 import fullImage from './assets/full.png'
+import nitenImage from './assets/niten.jpeg'
+import ahmedImage from './assets/ahmed.jpg'
+import vibhaImage from './assets/veebs.jpg'
+import ishanaImage from './assets/eeesh.png'
+import vid from './assets/video.mp4'
 
 // ============================================================
 // CONFIGURATION
@@ -63,10 +68,10 @@ export const VALUES = [
 
 // Team members (used in StorySection right column)
 export const TEAM = [
-  { name: 'Niten Luthra',     title: 'Founder & CEO', image: fullImage },
-  { name: 'Ahmed Elghazi',    title: 'Tech',           image: fullImage },
-  { name: 'Vibha Doddipalle', title: 'Marketing',      image: fullImage },
-  { name: 'Ishana Datusalia', title: 'Design',         image: fullImage },
+  { name: 'Niten Luthra',     title: 'Founder & CEO', image: nitenImage},
+  { name: 'Ahmed Elghazi',    title: 'Tech',           image: ahmedImage },
+  { name: 'Vibha Doddipalle', title: 'Marketing',      image: vibhaImage },
+  { name: 'Ishana Datusalia', title: 'Design',         image: ishanaImage },
 ]
 
 // Demo video section
@@ -75,7 +80,8 @@ export const VIDEO = {
   heading: 'See NithenAI in Action',
   description:
     'We built an illustrative walkthrough around a fictional Series B company. See exactly what the Connection Health Score was showing — and when an investor would have had enough signal to act.',
-  url: '/demo.mp4',
+  // url: '/demo.mp4',
+  url: vid,
 }
 
 export const CALENDLY = {
